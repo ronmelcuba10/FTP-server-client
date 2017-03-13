@@ -1,0 +1,13 @@
+login u p
+cd test
+mdel *
+!cd getfolder
+!delete achievements.jpg
+!delete byebeard.jpg
+!delete hoot.jpg
+!delete lorem.txt
+!delete panda.jpg
+!cd ..
+!rmdir getfolder
+!dir
+

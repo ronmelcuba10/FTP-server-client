@@ -1,0 +1,13 @@
+login u p
+mkd test
+copy test_file_source/achievements.jpg test/achievements.jpg
+copy test_file_source/byebeard.jpg test/byebeard.jpg
+copy test_file_source/hoot.jpg test/hoot.jpg
+copy test_file_source/lorem.txt test/lorem.txt
+copy test_file_source/panda.jpg test/panda.jpg
+cd test
+dir
+!mkdir getfolder
+!cd getfolder
+passive 
+mget * 

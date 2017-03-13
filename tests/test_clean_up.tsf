@@ -1,0 +1,99 @@
+# login as admininstrator
+login admin admin1234
+
+# build directory structure using differents commands
+
+# juan
+cd juan
+rmdir 	birds
+rmd 	pics
+rmd 	docs
+cd ..
+
+# luis
+cd luis
+rmd 	docs
+cd ..
+
+# jenny
+cd jenny
+rmd 	pics
+cd ..
+
+# emma
+rmdir 	emma/school
+
+
+# ronny
+rmd 	ronny/docs
+rmd 	ronny/photos
+
+
+
+# moving files to maria
+rm  	maria/pets/bird.jpg
+delete 	maria/school/putty.exe
+remove	maria/school/lorem.txt
+remove 	maria/photos/landscape.jpg
+rm 	 	maria/pets/byebeard.jpg
+delete 	maria/pets/hoot.jpg
+rm 		maria/pets/panda.jpg
+
+
+# removing maria's directories
+cd maria
+rmdir 	pets
+rmdir 	photos
+rmdir 	school
+cd ..
+
+
+# lisitng directories
+cd juan
+dir
+cd ..
+
+cwd maria
+ls
+cwd ..
+
+cwd jenny
+ls
+cwd ..
+
+cwd luis
+dir
+cwd ..
+
+cwd emma
+ls
+cwd ..
+
+cwd ronny
+list
+cwd ..
+
+logout
+
+
+# login in and listing directories
+
+login juan juan1234
+dir
+logout
+
+login luis luispass
+dir
+
+login maria mypass
+dir
+
+user emma em12345
+dir
+
+login jenny jpass1234
+dir
+
+login admin admin1234
+dir
+bye
