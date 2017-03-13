@@ -1,0 +1,30 @@
+login admin admin1234
+!dir
+!ls
+lls
+cd ..
+cd juan
+cd ..
+logout
+login admin admin1234
+logout 
+dir
+login juan juan1234
+dir
+user emma em 12345
+dir
+lls
+!ls
+help
+help login
+logout
+login jenny jpass1234
+dir
+help dir
+user luis luispass
+sdfsd
+not
+login admin admin1234
+logout
+quit
+
